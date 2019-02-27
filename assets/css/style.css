@@ -142,7 +142,7 @@ body {
     table-layout: auto;
     width: 100%;
     max-width: 960px;
-    min-width: 750px;
+    /* min-width: 380px; */
     margin-left: 20px;
     animation: photo 5s;
     -webkit-animation: photo 5s;
@@ -274,8 +274,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 670px) {
-    #headercont, main, #portfoliotable {
+    #headercont, main, #portfoliotable, body {
         max-width: 670px;
+        min-width: 370px;
             }
     #boxname {
         font-size: 20px;
