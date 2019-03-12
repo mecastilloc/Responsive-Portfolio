@@ -151,7 +151,10 @@ body {
 /*#contentportfolio {
      flex: 1 0 auto; 
 }*/
-
+img{ 
+    width: 300px;
+    height: 200px;
+}
 .box {
     color: white;
     background: #4aaaa5;
